@@ -10,4 +10,4 @@ def tao(n):
     return n
 so_xe = input("Nhập biển số xe có 4 chữ số: ")
 kq = tao(sum(int(i) for i in so_xe))
-print("Kết quả cuối cùng là:",kq)
+print("Số nút là:",kq)
