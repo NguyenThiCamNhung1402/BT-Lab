@@ -10,5 +10,4 @@ print("Tổng:",a+b)
 print("Hiệu:",a-b)
 print("Tích:",a*b)
 print("Thương (làm tròn 3 chữ số):",round(a/b,3))
-print("Chia lấy dư:",a%b)
-print("Chia lấy nguyên:",a//b)
+
