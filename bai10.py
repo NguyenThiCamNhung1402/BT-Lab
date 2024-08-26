@@ -4,8 +4,10 @@ Created on Sun Aug 25 13:05:41 2024
 
 @author: Nguyễn Thị Cẩm Nhung - 23712471
 """
-def count(so_xe ):
-    so_nut  = [1, 0, 0, 0, 1, 0, 1, 0, 2, 1]
-    return sum(so_nut [int(i )] for i  in so_xe )
-so_xe  = input("Nhập số xe của bạn (4 chữ số): ")
-print("Số xe của bạn có" , count(so_xe ), "nút.")
+def tao(n):
+    while n >= 10:
+        n = sum(int(i) for i in str(n))
+    return n
+so_xe = input("Nhập biển số xe có 4 chữ số: ")
+kq = tao(sum(int(i) for i in so_xe))
+print("Kết quả cuối cùng là:",kq)
